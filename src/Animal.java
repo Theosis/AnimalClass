@@ -12,5 +12,9 @@ public class Animal {
 	public String eat() {
 		return "An animal eats...";
 	}
+	public String breathe() {
+		return "An animal breathes.";
+	}
+	
 }
 

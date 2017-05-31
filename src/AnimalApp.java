@@ -10,14 +10,19 @@ public class AnimalApp {
 		Cat c = new Cat();
 		print(c.eat());
 		print(c.sleep());
-		print(c.purr());
-		
+		print(c.purr());		
 
 		Bird b = new Bird();
 		print(b.eat());
 		print(b.sleep());
 		print(b.fly());
 
+		Cow co = new Cow();
+		print(co.eat());
+		print(co.drink());
+		print(co.moo());
+		print(co.breathe());
+				
 	}
 	private static void print(String s){
 		System.out.println(s);
