@@ -3,17 +3,21 @@
  * This is the parent class. Also called the super class
  */
 public class Animal {
+	
+	public String animalType = "animal";
+	
 	public Animal() {
-		System.out.println("A new animal has been created!");
+		
+//		System.out.println("A new animal has been created!");
 	}
 	public String sleep() {
-		return "An animal sleeps...";
+		return ("The  " + animalType + " sleeps...");
 	}
 	public String eat() {
-		return "An animal eats...";
+		return ("The " + animalType + " eats...");
 	}
 	public String breathe() {
-		return "An animal breathes.";
+		return ("The " + animalType + " breathes.");
 	}
 	
 }

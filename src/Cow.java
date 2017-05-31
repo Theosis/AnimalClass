@@ -1,21 +1,24 @@
 
 public class Cow extends Animal {
-	
+
 	public Cow()  {
-		System.out.println("A cow was born...");
+		animalType = "cow";
+		//System.out.println("A cow was born...");
 	}
 	
+/*	
 	@Override
 	public String eat() {
 		return "A cow eats grass...";
 	}
+	*/
 	
 	public String moo() {
-		return "A cow moos...";
+		return "The cow  moos...";
 	}
 	
 	public String drink() {
-		return "A cow drinks a lot of water...";
+		return "The cow drinks a lot of water...";
 	}
 
 }
